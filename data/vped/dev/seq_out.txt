@@ -68,7 +68,7 @@ O O B-condition_description I-condition_description B-condition_price I-conditio
 O O O O B-condition_description I-condition_description B-condition_price I-condition_price O O O O B-condition_date O O
 O O B-condition_description I-condition_description O B-condition_location O B-condition_date
 O B-condition_description I-condition_description I-condition_description I-condition_description B-condition_price I-condition_price B-condition_date I-condition_date I-condition_date
-O B-condition_date O B-condition_description B-target_date O O O 
+O B-condition_date O B-condition_description B-target_date O O O
 O O B-condition_description O B-condition_description O B-condition_price
 O O O B-condition_description I-condition_description I-condition_description I-condition_description I-condition_description I-condition_description
 O O B-condition_date O B-condition_description I-condition_description
