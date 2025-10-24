@@ -133,7 +133,7 @@ def validate_data_consistency(seq_in_lines: List[str],
                     allowed_types = intent_token_rules[intent_token]
                     
                     if out_token.startswith('B-') or out_token.startswith('I-'):
-                        token_type = out_token.split('-')[1]  # Extract type after B- or I-
+                        token_type = out_token.split('-')[1].split('_')[0]  # Extract type after B- or I-
                         
                         if token_type not in allowed_types:
                             line_errors.append(f"Intent '{intent_token}' at position {token_idx + 1} "
@@ -205,7 +205,7 @@ def fix_wrong_labels(seq_intent_out_lines: List[str], seq_out_lines: List[str]) 
     # Define intent-token type compatibility rules
     intent_token_rules = {
         'add_transaction': ['target'],  # target only
-        'update_transaction': ['target', 'condition'],  # target or condition (unchanged)
+        # 'update_transaction': ['target', 'condition'],  # target or condition (unchanged)
         'delete_transaction': ['condition'],  # condition only
         'stat_transaction': ['condition'],  # condition only
         'search_transaction': ['condition'],  # condition only
@@ -242,17 +242,45 @@ def fix_wrong_labels(seq_intent_out_lines: List[str], seq_out_lines: List[str]) 
                     if token_type not in allowed_types:
                         # Fix the token type based on intent
                         if intent_token == 'add_transaction':
-                            # Change to target type
+                            # Change to target type - map condition tokens to target tokens
                             if out_token.startswith('B-'):
-                                fixed_out_tokens[token_idx] = f'B-target_{token_type}'
+                                if token_type == 'condition_description':
+                                    fixed_out_tokens[token_idx] = 'B-target_description'
+                                elif token_type == 'condition_price':
+                                    fixed_out_tokens[token_idx] = 'B-target_price'
+                                elif token_type == 'condition_date':
+                                    fixed_out_tokens[token_idx] = 'B-target_date'
+                                elif token_type == 'condition_location':
+                                    fixed_out_tokens[token_idx] = 'B-target_location'
                             elif out_token.startswith('I-'):
-                                fixed_out_tokens[token_idx] = f'I-target_{token_type}'
+                                if token_type == 'condition_description':
+                                    fixed_out_tokens[token_idx] = 'I-target_description'
+                                elif token_type == 'condition_price':
+                                    fixed_out_tokens[token_idx] = 'I-target_price'
+                                elif token_type == 'condition_date':
+                                    fixed_out_tokens[token_idx] = 'I-target_date'
+                                elif token_type == 'condition_location':
+                                    fixed_out_tokens[token_idx] = 'I-target_location'
                         elif intent_token in ['delete_transaction', 'stat_transaction', 'search_transaction']:
-                            # Change to condition type
+                            # Change to condition type - map target tokens to condition tokens
                             if out_token.startswith('B-'):
-                                fixed_out_tokens[token_idx] = f'B-condition_{token_type}'
+                                if token_type == 'target_description':
+                                    fixed_out_tokens[token_idx] = 'B-condition_description'
+                                elif token_type == 'target_price':
+                                    fixed_out_tokens[token_idx] = 'B-condition_price'
+                                elif token_type == 'target_date':
+                                    fixed_out_tokens[token_idx] = 'B-condition_date'
+                                elif token_type == 'target_location':
+                                    fixed_out_tokens[token_idx] = 'B-condition_location'
                             elif out_token.startswith('I-'):
-                                fixed_out_tokens[token_idx] = f'I-condition_{token_type}'
+                                if token_type == 'target_description':
+                                    fixed_out_tokens[token_idx] = 'I-condition_description'
+                                elif token_type == 'target_price':
+                                    fixed_out_tokens[token_idx] = 'I-condition_price'
+                                elif token_type == 'target_date':
+                                    fixed_out_tokens[token_idx] = 'I-condition_date'
+                                elif token_type == 'target_location':
+                                    fixed_out_tokens[token_idx] = 'I-condition_location'
                         
                         fixes_applied += 1
         
@@ -296,9 +324,9 @@ def get_invalid_lines(results: Dict) -> List[Dict]:
 
 
 def main():
-    """Main function to run data validation."""
+    """Main function to run data validation and fixing."""
     # Define file paths
-    data_dir = "data/vped/test"
+    data_dir = "data/vped/train"
     seq_in_path = os.path.join(data_dir, "seq_in.txt")
     seq_intent_out_path = os.path.join(data_dir, "seq_intent_out.txt")
     seq_out_path = os.path.join(data_dir, "seq_out.txt")
@@ -315,16 +343,20 @@ def main():
         sys.exit(1)
     
     print(f"Loaded {len(seq_in_lines)} lines from each file")
-    print("Starting validation...")
+    print("Starting label fixing...")
     
-    # Validate data
-    results = validate_data_consistency(seq_in_lines, seq_intent_out_lines, seq_out_lines)
+    # Fix wrong labels
+    fixed_intent_lines, fixed_out_lines = fix_wrong_labels(seq_intent_out_lines, seq_out_lines)
     
-    # Print results
+    # Save fixed files
+    save_fixed_files(fixed_intent_lines, fixed_out_lines, data_dir)
+    
+    print("Label fixing completed!")
+    
+    # Now validate the fixed data
+    print("\nValidating fixed data...")
+    results = validate_data_consistency(seq_in_lines, fixed_intent_lines, fixed_out_lines)
     print_validation_results(results)
-    
-    # Return invalid lines for further processing
-    invalid_lines = get_invalid_lines(results)
     
     # Exit with appropriate code
     if results['invalid_lines'] > 0:
