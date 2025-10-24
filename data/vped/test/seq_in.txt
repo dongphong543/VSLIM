@@ -1,0 +1,115 @@
+Tôi vừa chi 200 nghìn mua vé xem phim .
+Ghi lại khoản thu 10 triệu từ lương tháng này .
+Thêm vào chi_tiêu 50 nghìn tiền cà_phê sáng .
+Tôi vừa trả 3 triệu tiền học_phí đại_học .
+Lưu lại khoản chi 2 triệu khi mua điện_thoại .
+Cho tôi biết tổng chi_tiêu trong tuần này .
+Thống_kê thu_nhập 3 tháng đầu năm .
+Tổng_cộng chi_phí tháng 7 là bao_nhiêu ?
+Tôi đã tiêu bao_nhiêu tiền cho ăn_uống trong tháng này ?
+Hãy cho tôi báo_cáo danh_mục ăn_uống tháng 8 .
+Tìm giao_dịch mua giày hôm_qua .
+Cho tôi xem các khoản chi trên 2 triệu trong tháng này .
+Tìm các giao_dịch tại cửa_hàng Adidas .
+Hiển_thị tất_cả khoản thu từ ngày 1 đến ngày 10 .
+Tìm chi_tiêu liên_quan đến ăn_uống tuần trước .
+Sửa giao_dịch tiền điện tháng 8 thành 1 triệu .
+Chỉnh lại khoản chi mua sách từ 200 nghìn thành 150 nghìn .
+Cập_nhật chi_phí taxi hôm_qua thành 300 nghìn .
+Thay_đổi số tiền thu_nhập dự_án từ 5 triệu thành 7 triệu .
+Sửa chi_phí ăn trưa ngày 5/9 thành 80 nghìn .
+Xoá giao_dịch mua quần_áo ở Vincom .
+Huỷ khoản chi 500 nghìn cho tiệc sinh_nhật .
+Xoá giao_dịch tại Hà_Nội ngày hôm_qua .
+Xoá khoản thu_nhập từ dự_án freelance .
+Huỷ chi_tiêu tiền cafe sáng nay .
+Ghi lại khoản chi 2 triệu mua laptop và thống_kê chi_phí trong tháng này .
+Tìm giao_dịch ăn trưa hôm_qua và xoá nó đi .
+Thêm khoản thu 8 triệu từ lương và hiển_thị tất_cả giao_dịch thu_nhập .
+Sửa chi_phí điện thành 900 nghìn và cho tôi biết tổng chi_tiêu tháng này .
+Xoá khoản chi 300 nghìn taxi và tìm lại các giao_dịch đi_lại khác .
+Thêm chi_tiêu 1 triệu mua giày và tính tổng chi_tiêu tuần này .
+Sửa khoản thu_nhập dự_án thành 12 triệu và huỷ giao_dịch cũ .
+Tìm khoản chi 500 nghìn đi ăn và chỉnh lại thành 600 nghìn .
+Xoá chi_phí 200 nghìn cafe và thống_kê lại tổng_chi trong ngày .
+Thêm khoản chi 1.5 triệu cho tiền điện và tìm tất_cả giao_dịch điện nước .
+Thêm khoản thu 5 triệu từ freelance , sửa chi_phí điện thành 1 triệu và thống_kê tổng thu_nhập tháng này .
+Xoá giao_dịch 300 nghìn ăn sáng , thêm khoản chi 700 nghìn mua sách và tìm lại các giao_dịch giáo_dục .
+Thêm khoản chi 2 triệu mua áo_quần , chỉnh lại chi_phí ăn trưa thành 100 nghìn và tính tổng_chi tháng này .
+Tìm khoản thu_nhập từ dự_án , xoá khoản cũ 4 triệu và cập_nhật thành 6 triệu .
+Ghi lại khoản chi 900 nghìn cho tiền mạng , thống_kê tổng chi_phí internet và sửa chi_phí điện tháng trước .
+Tôi vừa chi 2 triệu cho ăn_uống
+Ghi lại khoản chi 500 nghìn mua sách
+Thêm khoản thu 10 triệu từ lương tháng này
+Hôm_nay tôi nhận được 1.5 triệu tiền thưởng , ghi lại giúp tôi
+Ghi lại khoản chi 300 nghìn đi taxi hôm_qua
+Tổng chi_tiêu tháng này là bao_nhiêu ?
+Tôi đã chi bao_nhiêu tiền cho ăn_uống trong tuần qua ?
+Cho tôi biết tổng thu_nhập tháng này
+Tôi đã chi bao_nhiêu tiền cho mua_sắm trong tháng ?
+Tính tổng chi_phí từ ngày 1 đến ngày 15 tháng này
+Tìm các giao_dịch liên_quan đến ăn_uống
+Tìm khoản chi_tiêu lớn nhất tháng trước
+Tìm những khoản chi trên 1 triệu trong tuần này
+Tìm giao_dịch mua_sắm hôm_qua
+Tìm các khoản thu từ ngày 10 đến ngày 20 tháng này
+Thay_đổi khoản chi mua_sắm ngày 10/3 thành 1.8 triệu
+Cập_nhật giao_dịch ăn trưa hôm_nay thành 150 nghìn
+Sửa khoản thu từ dự_án ngày 15 tháng trước thành 9 triệu
+Điều_chỉnh chi_phí taxi hôm_qua thành 350 nghìn
+Sửa khoản chi_tiêu tại nhà_hàng ABC thành 500 nghìn
+sửa chi_tiêu ăn phở hôm_qua thành cơm tấm .
+sửa bánh_mì thành sữa vinamilk
+sửa chi_tiêu ăn phở hết 30 k hôm_qua thành cơm tấm 50 k
+Sửa giá_thành của chi_tiêu uống nước hôm_nay ở Starbucks thành 120 k
+sửa chi tieu đi bơi hôm_qua thành đi uống nước
+xóa chi_tiêu đi taxi khoảng 100 k hôm_qua .
+xóa 35 k tiền grab
+xóa chi_tiêu đi Be 58 k hôm_qua
+Xóa chi_tiêu đi metro khoảng 30 k hôm_qua
+xóa chi_tiêu đi bơi khoảng 50 k hôm_qua
+tìm chi_tiêu đổ xăng tuần này .
+tìm chi_tiêu tiên grab tuần này
+tìm chi_tiêu mua đồ_dùng tháng này
+Tìm chi_tiêu mua xe tháng trước
+tìm chi_tiêu đi ăn
+Thống_kê tiền thuốc , khám bệnh năm này
+tuần này tôi đã đầu_tư bao_nhiêu cho sức khỏe quý_giá này
+Tuần này tốn_nhiêu tiền thuốc
+Thống_kê tiền t mang đi khám sức khỏe tổng_quát trong 1 năm
+thống_kê số tiền mua creatine trong năm nay
+Thêm đổ xăng 60 k sáng nay , xóa đi taxi hôm_qua , cho biết tổng đi_lại tuần này .
+thêm 10 k tiền xăng sáng nay , xóa tiền grab hôm_qua , cho biết tổng đi_lại tuần này
+thêm 50 k đổ xăng , xóa đi grab hôm_qua , cho biết tổng đi_lại tuần này
+Thêm việc mua 1 con xe Konigsegg hạng luxury 6 tỷ4 , hủy việc đi be hqua , thêm tiền xăng tuần này 100 k cho biết tổng đi_lại tuần này
+thêm 50 k đổ xăng , xóa đi bơi , cho biết tổng chi_tiêu tuần này
+Tôi vừa mua một chiếc áo khoác 500 k ở cửa_hàng Uniqlo hôm_qua .
+Thêm giao_dịch ăn trưa 45 nghìn tại quán cơm sinh_viên .
+Ghi lại khoản chi 1 triệu tiền xăng tháng này .
+Hôm_nay tôi bỏ ra 200 k để đi xem phim cùng bạn bè .
+Mình vừa thanh_toán 2 triệu rưỡi cho tiền điện tháng 8 .
+Xóa hộ mình giao_dịch cà_phê 25 k sáng nay .
+Hủy giao_dịch mua sách 120 k tại Fahasa hôm_qua .
+Bỏ khoản chi tiền nước 350 k đi 
+Xóa luôn giao_dịch ăn sáng 30 nghìn ngày hôm kia 
+Loại bỏ giao_dịch 200 k hôm qua 
+Sửa lại tiền điện tháng 7 thành 950 nghìn 
+Chỉnh giao_dịch mua giày từ 1,2 triệu xuống còn 1 triệu 
+Cập nhật khoản chi ăn_tối hôm qua thành 180 k 
+Đổi số tiền thuê_nhà từ 5 triệu sang 5,5 triệu 
+Thay đổi giao_dịch mua_sắm cuối_tuần thành 3 triệu 
+thống_kê Khánh_sinh tháng 6 cho mình luôn
+tìm khoản mua tập_thể_dục tuần trước , Tính tổng tiền để đi xe xăng tháng này
+Tôi vừa ăn_tô quý 40 k . tính chi_tiêu đầu_tư ăn_hàng ngày 20
+Còn cái thuế hôm_qua thì xóa giùm nhóoooo 😘 😘 xong Tiện thì tính tiền đi Bv ngày 22 giúp luôn nhe
+thống_kê tiền 3G , thử tìm lại chi_tiêu whey liên_quan đến học lập_trình tháng
+Xóa chi_tiêu mua gấu pusheen ngày 17 đi . Hôm đó mua nước ổi hồng 25 k
+cn tuần trước đi đầm_sen tiền vé 150 k , mua kem 35 k , ăn trưa 127 k
+xoá khoản chi 200 nghìn trà sữa sau đó thêm khoản chi 1 triệu mua giày nữa
+Sửa khoản tiền nhà từ 15 triệu thành 16 triệu rồi tra_cứu giao_dịch thuê nhà trong tháng 8
+cập_nhật lại khoản chi tiền điện thg 9 thành 1 tr và tìm các giao_dịch chi trong tháng đó
+Tracuu gd chi tieu thang trc , add khoan cf 500 k va_sua internet tu 300 k -> 250 k
+Them khoan chi 2 tr mua qa , cap nhat tien dien T9 con 1 tr va tim gd qua trong thang .
+tìm số tiền mua đth 8 h . Sửa lại cái số mũi hôm_qua thành 10 tỷ rồi Bỏ chi_tiêu taxi 100 k 11 rồi tháng trước có đi xe_điện không
+Nay ms mua shopee cuốn sổ 100 k . xóa khoản bắt Hóa đơn tiền điện lên trường hqua tầm 25 k . tính tiền trả_góp nhà tuần này giùm rồi Tìm chi_tiêu bánh giò tuần trước rồi Sửa chi_tiêu ăn Matcha latte ở Cơm_Quê Dượng_Bầu thành uống tiền mua đồ học_tập ở quán Thái_Công
+Sửa chia tiêu ăn áo_phông ngày mùng 3 thành Grab , Tìm khoản mua đồ mỹ_phẩm 2 tháng trc và xóa chi_tiêu đi grab khoảng 80 k hôm_qua với , giúp mình ghi lại txi hôm_nay tốn 27 triệu trung_tâm AIO , tính tiền hóa đơn tuần này giùm
