@@ -8,4 +8,4 @@ Initialize dataset. Dataset statistics:
 - 2-intent utterances: 341
 - 3-intent utterances: 295
 - 4-intent utterances: 74
-- 1-intent utterances: 12
+- 5-intent utterances: 12
