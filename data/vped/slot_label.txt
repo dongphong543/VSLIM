@@ -1,0 +1,17 @@
+O
+B-target_date
+I-target_date
+B-target_price
+I-target_price
+B-target_description
+I-target_description
+B-target_location
+I-target_location
+B-condition_date
+I-condition_date
+B-condition_price
+I-condition_price
+B-condition_description
+I-condition_description
+B-condition_location
+I-condition_location

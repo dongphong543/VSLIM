@@ -1,0 +1,26 @@
+Training set statistics:
+Total samples: 1014
+
+Intent distribution in training set:
+add_transaction: 86
+update_transaction: 78
+delete_transaction: 77
+search_transaction: 78
+stat_transaction: 66
+
+Validation set statistics:
+Total samples: 210
+
+Intent distribution in validation set:
+add_transaction: 30
+update_transaction: 30
+delete_transaction: 30
+search_transaction: 30
+stat_transaction: 30
+
+Validation set samples by intent count:
+1 intent(s): 150
+2 intent(s): 30
+3 intent(s): 20
+4 intent(s): 5
+5 intent(s): 5

@@ -1,0 +1,7 @@
+torch>=1.12.0
+transformers==4.41.0
+seqeval
+scikit-learn
+pytorch-crf
+numpy
+
