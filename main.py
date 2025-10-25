@@ -50,8 +50,8 @@ if __name__ == '__main__':
     parser.add_argument("--num_mask", type=int, default=4, help="assumptive number of slot in one sentence")
 
     parser.add_argument('--seed', type=int, default=1234, help="random seed for initialization")
-    parser.add_argument("--train_batch_size", default=256, type=int, help="Batch size for training.")
-    parser.add_argument("--eval_batch_size", default=128, type=int, help="Batch size for evaluation.")
+    parser.add_argument("--train_batch_size", default=32, type=int, help="Batch size for training.")
+    parser.add_argument("--eval_batch_size", default=64, type=int, help="Batch size for evaluation.")
     parser.add_argument("--max_seq_len", default=50, type=int, help="The maximum total input sequence length after tokenization.")
     parser.add_argument("--learning_rate", default=5e-5, type=float, help="The initial learning rate for Adam.")
     parser.add_argument("--num_train_epochs", default=10.0, type=float, help="Total number of training epochs to perform.")
@@ -71,7 +71,7 @@ if __name__ == '__main__':
     parser.add_argument("--do_eval", action="store_true", help="Whether to run eval on the test set.")
     parser.add_argument("--no_cuda", action="store_true", help="Avoid using CUDA when available")
 
-    parser.add_argument("--ignore_index", default=0, type=int,
+    parser.add_argument("--ignore_index", default=-100, type=int,
                         help='Specifies a target value that is ignored and does not contribute to the input gradient')
 
     parser.add_argument('--slot_loss_coef', type=float, default=1.0, help='Coefficient for the slot loss.')

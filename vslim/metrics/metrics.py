@@ -97,6 +97,24 @@ def get_tag_intent_metrics_fixed(tag_intent_preds, tag_intent_ids):
         'tag_intent_acc': correct_cnt / total_cnt if total_cnt > 0 else 0
     }
 
+# # maybe work?
+# def get_tag_intent_metrics_fixed(tag_intent_preds, tag_intent_ids):
+#     """
+#     So sánh tag-intent (PAD đã được filter trước khi truyền vào)
+#     """
+#     total_cnt = 0
+#     correct_cnt = 0
+
+#     for pred_list, gt_list in zip(tag_intent_preds, tag_intent_ids):
+#         for pred, gt in zip(pred_list, gt_list):
+#             if pred == gt:
+#                 correct_cnt += 1
+#             total_cnt += 1
+
+#     return {
+#         'tag_intent_acc': correct_cnt / total_cnt if total_cnt > 0 else 0
+#     }
+
 def get_semantic_basic_acc(intent_preds, intent_labels, slot_preds, slot_labels):
     """
     Semantic Basic Accuracy - CHỈ so sánh intent + slot
@@ -193,6 +211,19 @@ def get_sentence_frame_acc_multi_intent_fixed(intent_preds,
             tag_intent_result.append(one_sent_result)
 
         tag_intent_result = np.array(tag_intent_result)
+
+    # # Tag-intent comparison (PAD đã được filter trước), maybe work?
+    # if tag_intent_existence:
+    #     tag_intent_result = []
+    #     for preds, labels in zip(tag_intent_preds, tag_intent_labels):
+    #         one_sent_result = True
+    #         for p, l in zip(preds, labels):
+    #             if p != l:
+    #                 one_sent_result = False
+    #                 break
+    #         tag_intent_result.append(one_sent_result)
+
+    #     tag_intent_result = np.array(tag_intent_result)
 
     # Combine all results
     if tag_intent_existence and intent_token_existence:
