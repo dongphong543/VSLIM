@@ -43,7 +43,7 @@ if __name__ == '__main__':
 
     parser.add_argument("--model_type", default="bert", type=str, help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
     parser.add_argument("--intent_seq", type=int, default=1, help="whether we use intent seq setting")
-#    parser.add_argument("--tag_intent", type=int, default=0, help="whether we can use tag to predict intent")
+    parser.add_argument("--tag_intent", type=int, default=1, help="whether we can use tag to predict intent")
     parser.add_argument("--BI_tag", type=int, default=1, help='use BI sum or just B')
     parser.add_argument("--cls_token_cat", type=int, default=1, help='whether we cat the cls to the slot output of bert')
     parser.add_argument("--intent_attn", type=int, default=1, help='whether we use attention mechanism on the CLS intent output')
