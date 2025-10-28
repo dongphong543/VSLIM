@@ -1,0 +1,115 @@
+O O O B-target_price I-target_price O B-target_description I-target_description I-target_description O
+O O O O B-target_price I-target_price O B-target_description B-target_date I-target_date O
+O O O B-target_price I-target_price O B-target_description I-target_description O
+O O O B-target_price I-target_price O B-target_description I-target_description O
+O O O O B-target_price I-target_price O O B-target_description O
+O O O O B-condition_description O B-condition_date I-condition_date O
+O B-condition_description B-condition_date I-condition_date I-condition_date I-condition_date O
+O O B-condition_date I-condition_date O O O
+O O O O O O B-condition_description O B-condition_date I-condition_date O
+O O O O B-condition_description I-condition_description B-condition_date B-condition_date O
+O O O B-condition_description B-condition_date O
+O O O O O O O B-condition_price I-condition_price O B-condition_date I-condition_date O
+O O O O B-condition_location I-condition_location O
+O O O O O B-condition_date I-condition_date I-condition_date I-condition_date I-condition_date O
+O O O O B-condition_description B-condition_date I-condition_date O
+O O O B-condition_description B-condition_date I-condition_date O B-target_price I-target_price O
+O O O O O B-condition_description O B-condition_price I-condition_price O B-target_price I-target_price O
+O O B-condition_description B-condition_date O B-target_price I-target_price O
+O O O B-condition_description I-condition_description O B-condition_price I-condition_price O B-target_price I-target_price O
+O O B-condition_description I-condition_description B-condition_date I-condition_date O B-target_price I-target_price O
+O O O B-condition_description O B-condition_location O
+O O O B-condition_price I-condition_price O B-condition_description I-condition_description O
+O O O B-condition_location B-condition_date I-condition_date O
+O O B-condition_description O B-condition_description I-condition_description O
+O O O B-condition_description B-condition_date I-condition_date O
+O O O O B-target_price I-target_price O B-target_description O O B-condition_description O B-condition_date I-condition_date O
+O O B-condition_description I-condition_description B-condition_date O O O O O
+O O O B-target_price I-target_price O B-target_description O O O O B-condition_description O
+O O B-condition_description O B-target_price I-target_price O O O O O B-condition_description B-condition_date I-condition_date O
+O O O B-condition_price I-condition_price B-condition_description O O O O B-condition_description I-condition_description O O
+O O B-target_price I-target_price O B-target_description O O O B-condition_description B-condition_date I-condition_date O
+O O B-condition_description I-condition_description O B-target_price I-target_price O O O O O
+O O O B-condition_price I-condition_price O B-condition_description O O O O B-target_price I-target_price O
+O O B-condition_price I-condition_price B-condition_description O O O B-condition_description O B-condition_date O
+O O O B-target_price I-target_price O O B-target_description O O O O B-condition_description I-condition_description O
+O O O B-target_price I-target_price O B-target_description O O O B-condition_description O B-target_price I-target_price O O O B-condition_description B-condition_date I-condition_date O
+O O B-condition_price I-condition_price B-condition_description I-condition_description O O O O B-target_price I-target_price O O B-target_description O O O O B-condition_description O
+O O O B-target_price I-target_price O B-target_description O O O O B-condition_description I-condition_description O B-target_price I-target_price O O O B-condition_date I-condition_date O
+O O O O B-condition_description O O O O B-condition_price I-condition_price O O O B-target_price I-target_price O
+O O O O B-target_price I-target_price O B-target_description I-target_description O O O B-condition_description I-condition_description O O B-condition_description I-condition_description B-condition_date I-condition_date O
+O O O B-target_price I-target_price O B-target_description
+O O O O B-target_price I-target_price O B-target_description
+O O O B-target_price I-target_price O B-target_description B-target_date I-target_date
+B-target_date O O O B-target_price I-target_price B-target_description I-target_description O O O O O
+O O O O B-target_price I-target_price O B-target_description B-target_date
+O B-condition_description B-condition_date I-condition_date O O O
+O O O O O O B-condition_description O B-condition_date I-condition_date O
+O O O O B-condition_description B-condition_date I-condition_date
+O O O O O O B-condition_description O B-condition_date O
+O O B-condition_description O B-condition_date I-condition_date I-condition_date I-condition_date I-condition_date I-condition_date I-condition_date
+O O O O O B-condition_description
+O O B-condition_description O O B-condition_date I-condition_date
+O O O O O B-condition_price I-condition_price O B-condition_date I-condition_date
+O O B-condition_description B-condition_date
+O O O O B-condition_date I-condition_date I-condition_date I-condition_date I-condition_date I-condition_date I-condition_date I-condition_date
+O O O B-condition_description B-condition_date I-condition_date O B-condition_price I-condition_price
+O O B-condition_description I-condition_description B-condition_date O B-condition_price I-condition_price
+O O O O B-condition_description B-condition_date I-condition_date I-condition_date I-condition_date O B-condition_price I-condition_price
+O O B-condition_description B-condition_date O B-condition_price I-condition_price
+O O B-condition_description O B-condition_location I-condition_location O B-condition_price I-condition_price
+O O B-condition_description I-condition_description B-condition_date O B-target_description I-target_description O
+O B-condition_description O B-target_description I-target_description
+O O B-condition_description I-condition_description O B-condition_price I-condition_price B-condition_date O B-target_description I-target_description B-target_price I-target_price
+O O O O B-condition_description I-condition_description B-condition_date O B-condition_location O B-target_price I-target_price
+O O O O B-condition_description B-condition_date O O B-target_description I-target_description
+O O O B-condition_description O B-condition_price I-condition_price B-condition_date O
+O B-condition_price I-condition_price O B-condition_description
+O O O B-condition_description B-condition_price I-condition_price B-condition_date
+O O O B-condition_description O B-condition_price I-condition_price B-condition_date
+O O O B-condition_description O B-condition_price I-condition_price B-condition_date
+O O O B-condition_description B-condition_date I-condition_date O
+O O O B-condition_description B-condition_date I-condition_date
+O O O B-condition_description B-condition_date I-condition_date
+O O O B-condition_description B-condition_date I-condition_date
+O O O B-condition_description
+O O B-condition_description O B-condition_description I-condition_description B-condition_date I-condition_date
+B-condition_date I-condition_date O O O O O B-condition_description I-condition_description O O
+B-condition_date I-condition_date O O B-condition_description
+O O O O O B-condition_description I-condition_description I-condition_description O O B-condition_date I-condition_date
+O O O O B-condition_description O B-condition_date I-condition_date
+O O B-target_description B-target_price I-target_price B-target_date I-target_date O O O B-condition_description B-condition_date O O O O B-condition_description B-condition_date I-condition_date O
+O B-target_price I-target_price O B-target_description B-target_date I-target_date O O O B-condition_description B-condition_date O O O O B-condition_description B-condition_date I-condition_date
+O B-target_price I-target_price O B-target_description O O O B-condition_description B-condition_date O O O O B-condition_description B-condition_date I-condition_date
+O O O O O B-target_description I-target_description O O B-target_price I-target_price O O O O B-condition_description B-condition_date O O O B-target_description B-target_date I-target_date B-target_price I-target_price O O O B-condition_description B-condition_date I-condition_date
+O B-target_price I-target_price O B-target_description O O O B-condition_description O O O O B-condition_description B-condition_date I-condition_date
+O O O O O B-target_description I-target_description B-target_price I-target_price O B-target_location I-target_location B-target_date O
+O O B-target_description I-target_description B-target_price I-target_price O B-target_location I-target_location I-target_location O
+O O O O B-target_price I-target_price O B-target_description B-target_date I-target_date O
+B-target_date O O O B-target_price I-target_price O O B-target_description I-target_description O O O O
+O O O B-target_price I-target_price I-target_price O B-target_description I-target_description B-target_date I-target_date O
+O O O O B-condition_description B-condition_price I-condition_price B-condition_date I-condition_date O
+O O O B-condition_description B-condition_price I-condition_price O B-condition_location B-condition_date O
+O O O O B-condition_description B-condition_price I-condition_price O
+O O O B-condition_description I-condition_description O B-condition_price I-condition_price B-condition_date I-condition_date
+O O O B-condition_price I-condition_price B-condition_date I-condition_date
+O O O B-condition_description B-condition_date I-condition_date O B-target_price I-target_price
+O O O B-condition_description O B-condition_price I-condition_price O O B-target_price I-target_price
+O O O O B-condition_description B-condition_date I-condition_date O B-target_price I-target_price
+O O O B-condition_description O B-condition_price I-condition_price O B-target_price I-target_price
+O O O B-condition_description B-condition_date O B-target_price I-target_price
+O B-condition_description B-condition_date I-condition_date O O O
+O O O B-condition_description B-condition_date I-condition_date O O O O O O B-condition_description I-condition_description B-condition_date I-condition_date
+O O O B-target_description B-target_price I-target_price O O O O B-condition_description B-condition_date I-condition_date
+O O B-condition_description B-condition_date O O O O O O O O O O O O B-condition_description B-condition_date I-condition_date O O O
+O O B-condition_description O O O O O B-condition_description O O B-condition_description I-condition_description B-condition_date
+O O O B-condition_description I-condition_description B-condition_date I-condition_date O O O O O B-target_description I-target_description I-target_description B-target_price I-target_price
+B-target_date I-target_date I-target_date O B-target_location B-target_description I-target_description B-target_price I-target_price O B-target_description I-target_description B-target_price I-target_price O B-target_description I-target_description B-target_price I-target_price
+O O O B-condition_price I-condition_price B-condition_description I-condition_description O O O O O B-target_price I-target_price B-target_description I-target_description O
+O O B-condition_description I-condition_description O B-condition_price I-condition_price O B-target_price I-target_price O O O B-condition_description I-condition_description O B-condition_date I-condition_date
+O O O O B-condition_description I-condition_description B-condition_date I-condition_date O B-target_price I-target_price O O O B-condition_description O O B-condition_date I-condition_date
+O O O O B-condition_date I-condition_date O O O B-target_description B-target_price I-target_price O B-condition_description O B-condition_price I-condition_price O B-target_price I-target_price
+O O O B-target_price I-target_price B-target_description I-target_description O O O B-condition_description I-condition_description B-condition_date O B-target_price I-target_price O O O O O B-condition_date O
+O O O O B-condition_description B-condition_date I-condition_date O O O O O B-condition_description B-condition_date O B-target_price I-target_price O O O B-condition_description B-condition_price I-condition_price B-condition_date O B-condition_date I-condition_date O O B-condition_description O
+B-target_date O O B-target_description I-target_description I-target_description B-target_price I-target_price O O O O B-condition_description I-condition_description I-condition_description I-condition_description O B-condition_location B-condition_date O B-condition_price I-condition_price O O O B-condition_description I-condition_description B-condition_date I-condition_date O O O O B-condition_description I-condition_description B-condition_date I-condition_date O O O O B-condition_description I-condition_description O B-condition_location I-condition_location O O B-target_description I-target_description I-target_description I-target_description O B-target_location I-target_location
+O O O O B-condition_description B-condition_date I-condition_date I-condition_date O B-target_description O O O O B-condition_description I-condition_description B-condition_date I-condition_date I-condition_date O O O O B-condition_description O B-condition_price I-condition_price B-condition_date O O O O O O B-target_description B-target_date O B-target_price I-target_price B-target_location I-target_location O O O B-condition_description I-condition_description B-condition_date I-condition_date O

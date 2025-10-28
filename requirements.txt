@@ -1,0 +1,9 @@
+torch>=2.1.0
+torchvision>=0.16.0
+torchaudio>=2.1.0
+transformers==4.41.0
+seqeval
+scikit-learn
+pytorch-crf
+numpy
+
